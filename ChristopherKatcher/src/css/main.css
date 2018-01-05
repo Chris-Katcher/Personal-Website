@@ -132,6 +132,19 @@ header {
     z-index: 10;
 }
 
+.text-box-container-white {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    padding: 15px;
+    background: #fff;
+}
+
+.text-box-container-blue {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    padding: 15px;
+    background: #f9fcff;
+}
+
+
 #nav {
     display: inline-block;
     margin: 0px;
@@ -202,6 +215,10 @@ th {
     padding: 10px;
 }
 
+.background{
+    background: #fff;
+}
+
 .alt-background {
     background: #f9fcff;
 }
@@ -215,7 +232,7 @@ th {
 #about {
     padding: 30px 15px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 #about-container {
     text-align: center;
@@ -338,8 +355,95 @@ th {
 }
 
 .timeline-experience-info h5 {
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: left;
+    font-size: 26px;
+}
+
+.timeline-role {
+    color: rgb(51, 153, 255);
+    font-size: 24px;
+}
+
+.timeline-description {
+    color: #819398;
+    font-size: 24px;
+}
+
+.timeline-duration {
+    font-size: 16px;
+    color: #9aa9ad;
+}
+
+#education {
+    text-align: center;
+    padding: 50px 15px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#education-container{
+    margin: 20px auto 0 auto;
+    position: relative;
+    max-width: 1400px;
+}
+
+#education-logo {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/rit-logo.png");
+    background-size: cover;
+    display: block;
+    position: absolute;
+    float: left;
+    margin: 0 0 30px 0;
+    -webkit-box-shadow: #555555;
+}
+
+#education-overview .text-box-container-white div {
+    margin-left: 475px;
+    /*margin-top: 100px;*/
+}
+
+#education-img:before {
+    position: relative;
+    content: '';
+    height: 2px;
+    width: 30%;
+    left: 0;
+    right: 0;
+    top: -20px;
+    margin: 0 30px;
+    background: rgb(51, 153, 255);
+}
+
+#education-img {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/rit.jpg");
+    background-size: cover;
+    display: block;
+
+    /*margin-left: auto;*/
+
+    -webkit-border-bottom-right-radius: 50%;
+    -webkit-border-top-left-radius: 50%;
+    float: right;
+    border: 5px solid rgb(51, 153, 255);
+    -webkit-box-shadow: #555555;
+}
+
+#education-img:after {
+    position: relative;
+    content: '';
+    top: 420px;
+    height: 2px;
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 270px;
+    background: rgb(51, 153, 255);
 }
 
 /* ==========================================================================
