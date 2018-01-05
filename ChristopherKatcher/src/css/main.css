@@ -393,6 +393,10 @@ th {
     height: 400px;
     width: 400px;
     background-image: url("../img/rit-logo.png");
+    -webkit-border-radius: 50%;
+
+    border: 5px solid rgb(51, 153, 255);
+
     background-size: cover;
     display: block;
     position: absolute;
@@ -401,8 +405,21 @@ th {
     -webkit-box-shadow: #555555;
 }
 
-#education-overview .text-box-container-white div {
+.text-box-container-white-eduction-right {
+    margin-top: 20px;
     margin-left: 475px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    padding: 15px;
+    background: #fff;
+    /*margin-top: 100px;*/
+}
+
+.text-box-container-white-eduction-left {
+    margin-top: 20px;
+    margin-right: 475px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    padding: 15px;
+    background: #fff;
     /*margin-top: 100px;*/
 }
 
@@ -421,6 +438,7 @@ th {
 #education-img {
     height: 400px;
     width: 400px;
+    margin-top: 10px;
     background-image: url("../img/rit.jpg");
     background-size: cover;
     display: block;
